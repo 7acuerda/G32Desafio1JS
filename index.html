@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Desafio 1 JavaScript</title>
+</head>
+
+<body>
+    <div class="card-ppal bg-aqua">
+        <img src="./assets/img/mi_guitarra.jpg" alt="Mi guitarra">
+        <h1>Fender Stratocaster American Ultra Pro II</h1>
+
+        <div class="card-contenido">
+            <input type="number" placeholder="Cantidad" id="cantidad">
+            <input type="text" placeholder="Color" id="color">
+            <p>Precio: USD 1998</p>
+        </div>
+
+        <div class="card-footer">
+            <button id="btnTotal">Calcular Total</button>
+        </div>
+    </div>
+
+    <div class="card-lateral">
+        <p>Precio Total: <span id="precioTotal"></span></p>
+        <p>Cantidad: <span id="cantidadTotal"></span></p>
+
+        <div class="colorInput">
+            <p>Color: </p>
+            <div class="figura"></div>
+        </div>
+
+
+    </div>
+    <script src=".assets/js/main.js"></script>
+
+
+</body>
+
+</html>
